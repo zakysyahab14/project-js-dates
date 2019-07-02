@@ -30,7 +30,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.514);
     font-style: oblique;
     padding: 20px;
-    
+
 }
 
 .container p {
@@ -91,4 +91,94 @@ footer a {
 
 @media (max-width: 900px) and (min-width: 700px) {
 
+    .container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 110vh;
+    }
+
+    body {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 100;
+        background-color: black;
+        color: #eee;
+        background-image: url(./images/SHVR.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: -50px;
+        overflow: hidden;
+    }
+
+
+    h1 {
+        margin: 0 auto;
+        color: black;
+        font-weight: 400;
+        font-size: 50px;
+        background-color: rgba(255, 255, 255, 0.514);
+        font-style: oblique;
+        padding: 20px;
+
+    }
+
+    .container p {
+        margin: 0 auto;
+        font-size: 15px;
+        min-width: 450px;
+    }
+
+    #clockdiv {
+        margin-top: 10px;
+        font-family: sans-serif;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #clockdiv>div {
+        padding: 10px;
+        border-radius: 50%;
+        background: #4ca1c973;
+        display: inline-block;
+    }
+
+    #clockdiv div>span {
+        padding: 15px;
+        border-radius: 50%;
+        background: #05789b;
+        display: inline-block;
+    }
+
+    .smalltext {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    footer {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        font-size: 9px;
+        bottom: 0;
+        background-color: transparent;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+
+
+    footer a {
+        color: #fff;
+        text-decoration-line: none;
+    }
 }
