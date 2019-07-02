@@ -89,3 +89,6 @@ footer a {
     text-decoration-line: none;
 }
 
+@media (max-width: 900px) and (min-width: 700px) {
+
+}
